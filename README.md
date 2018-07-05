@@ -13,10 +13,12 @@ CNN を使った、簡単な画像判別機のコードです。
 `uploaded = files.upload()`
 上のコードを回して、手動でアップロードしましょう。
 npy ファイルは、同じ階層のディレクトリに入っています。
+
 **Training:**
 `history = model.fit(X_train, Y_train, batch_size=BATCH_SIZE, epochs=MAX_EPOCH,
                    validation_data = (X_test, Y_test), verbose = 1)`
 上記のコードを回しましょう。trainが始まります。
+
 **Predict:**
 `model.predict(img_data)`
 上記のコードを回しましょう。
